@@ -1,4 +1,3 @@
-
 import 'package:quiz_app/Utils/question.dart';
 
 class Quiz {

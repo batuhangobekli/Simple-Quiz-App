@@ -15,7 +15,7 @@ Widget build(BuildContext context){
       new Column(//this is main page
       children: <Widget>[
        new AnswerButton(true,() => print("You answered True")),
-       new QuestionText(),
+       new QuestionText("Batuhan", 1),
        new AnswerButton(false,() => print("You answered False"))
       ],
       )
